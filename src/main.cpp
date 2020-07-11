@@ -15,6 +15,8 @@ void handleInterrupt() {
       if (digitalRead(2) == HIGH) {  //wenn Wechsel von LOW nach (jetzt) HIGH
         lastTime = micros();
         checking = true;
+        //check this
+
       }
     }
 
